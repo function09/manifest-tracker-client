@@ -103,7 +103,9 @@ function LoginDialog({ isOpen, onClose, onLogin, openCreateUserDialog, setErrorM
             }}
           />
         </FormItem>
-        <Button type="Submit">Log in</Button>
+        <Button style={{ width: '4rem' }} type="Submit">
+          Log in
+        </Button>
       </Form>
     </Dialog>
   );
@@ -173,7 +175,9 @@ function NewUserDialog({ isOpen, openLoginDialog, setErrorMessage, errorMessage 
             }}
           ></Input>
         </FormItem>
-        <Button type="Submit">Submit</Button>
+        <Button style={{ width: '4rem' }} type="Submit">
+          Submit
+        </Button>
       </Form>
     </Dialog>
   );
