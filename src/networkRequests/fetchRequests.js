@@ -1,4 +1,5 @@
-const baseURL = 'https://manifest-tracker-api.fly.dev';
+//URL goes in env file
+const baseURL = import.meta.env.VITE_API_URL;
 
 const urls = {
   manifests: `${baseURL}/api/v1/manifests`,
