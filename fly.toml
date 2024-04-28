@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for manifest-tracker-client-falling-wind-9457 on 2024-04-27T16:08:06-04:00
+# fly.toml app configuration file generated for manifest-tracker-client-blue-sea-7084 on 2024-04-27T22:22:27-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'manifest-tracker-client-falling-wind-9457'
+app = 'manifest-tracker-client-blue-sea-7084'
 primary_region = 'atl'
 
 [build]
