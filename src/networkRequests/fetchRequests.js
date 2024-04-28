@@ -36,9 +36,6 @@ const fetchManifests = async () => {
 const fetchItems = async (UUID) => {
   const fetchOptions = {
     method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-    },
     credentials: 'include',
   };
   // clean all of this up
