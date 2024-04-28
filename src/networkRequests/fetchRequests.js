@@ -1,4 +1,4 @@
-const baseURL = 'https://manifest-tracker-api-delicate-fog-249.fly.dev';
+const baseURL = 'https://manifest-tracker-api.fly.dev';
 
 const urls = {
   manifests: `${baseURL}/api/v1/manifests`,
